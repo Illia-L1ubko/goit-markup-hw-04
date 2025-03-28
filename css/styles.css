@@ -155,6 +155,17 @@ img {
 .section-one {
   background-color: #2e2f42;
   padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/PeopleOffice.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-title {
@@ -182,6 +193,7 @@ img {
   height: 56px;
   border: none;
   margin: 48px auto 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .main-button:hover,
@@ -233,6 +245,17 @@ img {
   color: #434455;
 }
 
+.antenna,
+.clock,
+.diagram,
+.astronaut {
+  background: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+}
+
 /*section three settings*/
 
 .section-three {
@@ -261,6 +284,8 @@ img {
   background-color: #ffffff;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .employee-info {
@@ -381,4 +406,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.footer svg {
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
