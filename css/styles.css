@@ -324,7 +324,6 @@ img {
 
 .employee-info {
   padding: 32px 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-three-title {
@@ -356,10 +355,6 @@ img {
   height: 40px;
 }
 
-.links-info .first {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .links {
   width: 100%;
   height: 100%;
@@ -368,7 +363,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links:hover,
@@ -431,17 +426,6 @@ img {
   overflow: hidden;
 }
 
-.overlay-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-
-  transform: translateY(100%);
-}
-
 .portfolio-item:hover .overlay-text {
   transform: translateY(0);
   background-color: #404bbf;
@@ -472,7 +456,6 @@ img {
 .app-img {
   position: relative;
   overflow: hidden;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-text {
@@ -490,7 +473,6 @@ img {
   width: 100%;
 
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*footer settings*/
